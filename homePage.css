@@ -1,0 +1,71 @@
+.containPage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2f3542;
+    height: 99.9vh;
+    width: 100%;
+}
+
+
+.personalInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting{
+    font-size: 20px;
+    color: rgba(255, 255, 0, 0.74);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: end;
+}
+.name{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.795);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btnHome{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: transparent;
+    border: 4px solid #e1b12cf6;
+    color: #e1b12cf6;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.btnHome:hover{
+    border: 4px solid yellow;
+    color: yellow;
+    cursor: pointer;
+}
+
+.personalDescription{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    flex-wrap: wrap;
+}
+
+.title{
+    font-size: 20px;
+    color: rgba(255, 255, 0, 0.74);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: end;
+}
+
+.work{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.795);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: end;
+}
+
+.description{
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.795);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
