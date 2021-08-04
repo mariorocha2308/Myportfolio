@@ -1,7 +1,54 @@
 .aboutPage{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #2f3542;
-    height: 100vh;
+    height: 99.9vh;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.picAbout{
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.about{
+    width: 550px;
+    user-select: none;
+}
+
+.titleAbout{
+    color: #f5cd79;
+}
+
+.p{
+    color: rgba(255, 255, 255, 0.795);
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.titleSkills{
+    color: #fa973acc;
+}
+
+.technos{
+    margin: 8px;
+    background-color: rgba(255, 255, 255, 0.123);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.divTechnos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }

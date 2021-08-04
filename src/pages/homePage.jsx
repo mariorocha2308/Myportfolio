@@ -2,6 +2,7 @@ import './styles/homePage.css'
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer';
 import {useEffect} from 'react'
+import image from '../images/B612.jpg'
 
 const HomePage = () => {
 
@@ -30,12 +31,13 @@ const HomePage = () => {
                     animate={animation}
                     >
                     <label className='greeting'>WELCOME, I'M</label>
-                    <label className='name'>Mario De Jesus.</label>
+                    <label className='name'>Mario De Jesus</label>
+                    <label className='name'>Rocha.</label>
+                    {/* TODO: AÑADIR ICONOS REFERENCIALE A REDES DE CONTACTO */}
                     <button className='btnHome'>Download CV</button>
                 </motion.div>
                 <div>
-                    {/* TODO: PONER IMAGEN PROPIA */}
-                    <h1>Picture</h1>
+                    <img src={image} alt="Picture Mario" className='picHome'/>
                 </div>
                 <motion.div className='personalDescription' 
                     animate={animation}

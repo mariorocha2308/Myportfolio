@@ -20,13 +20,6 @@ const NavBar = () => {
             ><span>About Me</span></Link>
             <Link
                 activeClass="active"
-                to="skillsPage"
-                spy={true}
-                smooth={true}
-                duration={500}
-            ><span>Skills</span></Link>
-            <Link
-                activeClass="active"
                 to="portfolioPage"
                 spy={true}
                 smooth={true}

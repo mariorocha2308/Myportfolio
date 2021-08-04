@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #2f3542;
-    height: 100vh;
+    height: 99.9vh;
     width: 100%;
 }
 
@@ -76,4 +76,10 @@
     font-size: 23px;
     color: #f5cd79;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.picHome{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
