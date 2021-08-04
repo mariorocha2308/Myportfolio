@@ -37,7 +37,7 @@ const HomePage = () => {
                     <button className='btnHome'>Download CV</button>
                 </motion.div>
                 <div>
-                    <img src={image} alt="Picture Mario" className='picHome'/>
+                    <img src={image} alt="" className='picHome'/>
                 </div>
                 <motion.div className='personalDescription' 
                     animate={animation}

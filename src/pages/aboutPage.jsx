@@ -21,7 +21,7 @@ const AboutPage = () => {
                 <div className='divTechnos'>
                     {
                         technologies.map((technos, idex) => (
-                            <motion.label  id={idex} className='technos'   whileHover={{
+                            <motion.label  key={idex} className='technos'   whileHover={{
                                 scale: 1.2,
                                 backgroundColor: '#f5cd79',
                                 cursor: 'pointer',
