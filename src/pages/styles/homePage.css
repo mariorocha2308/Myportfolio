@@ -99,7 +99,7 @@
 @media (max-width: 550px){
     .containPage{
         flex-direction: column;
-        height: 125vh;
+        height: 145vh;
     }
     .greeting{
         font-size: 20px;
@@ -116,6 +116,10 @@
     .work{
         font-size: 25px;
         text-align: center;
+    }
+
+    .btnHome{
+        margin-bottom: 30px;
     }
 
     .stacks{

@@ -5,3 +5,9 @@
     background-color: #2f3542;
     height: 100vh;
 }
+
+@media (max-width: 550px) {
+    .portfolioPage{
+        height: 145vh;
+    }
+}
