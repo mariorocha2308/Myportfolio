@@ -13,10 +13,6 @@ span{
     user-select: none;
 }
 
-span:hover{
-    color: #ffa502;
-}
-
 .active{
     color: #f7d794;
     background-color: rgba(255, 255, 255, 0.055);

@@ -99,7 +99,7 @@
 @media (max-width: 550px){
     .containPage{
         flex-direction: column;
-        height: 145vh;
+        height: 125vh;
     }
     .greeting{
         font-size: 20px;
