@@ -52,3 +52,22 @@
     align-content: center;
     flex-wrap: wrap;
 }
+
+@media (max-width: 550px){
+    .aboutPage{
+        justify-content: initial;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 145vh;
+    }
+    .about{
+        width: 330px;
+    }
+
+    .picAbout{
+        margin-top: 80px;
+        width: 290px;
+        height: 300px;
+    }
+}

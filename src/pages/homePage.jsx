@@ -3,8 +3,10 @@ import { motion, useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer';
 import {useEffect} from 'react'
 import image from '../images/B612.jpg'
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 const HomePage = () => {
+
 
     const {ref, inView } = useInView()
     const animation = useAnimation()
@@ -33,8 +35,14 @@ const HomePage = () => {
                     <label className='greeting'>WELCOME, I'M</label>
                     <label className='name'>Mario De Jesus</label>
                     <label className='name'>Rocha.</label>
-                    {/* TODO: AÑADIR ICONOS REFERENCIALE A REDES DE CONTACTO */}
-                    <button className='btnHome'>Download CV</button>
+                    <div>
+                        <a href="https://www.linkedin.com/in/mario-de-jesus-rocha" target="_blank" rel='noreferrer'><FaLinkedin className='icon'/></a>
+                        
+                        <a href="https://github.com/mariorocha2308" target="_blank" rel='noreferrer'><FaGithubSquare className='icon'/></a>
+                    </div>
+
+                    <a  className='btnHome' href="https://drive.google.com/file/d/1-hyvMQODIaB37OUB9jRf6ew4Yh-lNfLZ/view?usp=sharing" target="_blank" rel='noreferrer'>Download CV</a>
+                    
                 </motion.div>
                 <div>
                     <img src={image} alt="" className='picHome'/>
