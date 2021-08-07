@@ -52,9 +52,8 @@ const HomePage = () => {
                     >
                     <label className='title'>I'M</label>
                     <label className='work'>Full Stack Web Developer Junior</label>
-                    <p className='description'>I like develop Web Sites and Mobiles Aplications</p>
+                    <p className='description'>I like to work in Web Sites and Mobiles Aplications</p>
                     <p className='stacks'>Frontend, Backend & Data Base</p>
-                    <button className='btnHome'>Contact</button>
                 </motion.div>         
         </div> 
     );

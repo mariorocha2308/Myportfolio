@@ -15,7 +15,7 @@ const AboutPage = () => {
 
                 <h2 className='titleAbout'>About Me</h2>
                 <hr/>
-                <p className='p'>I'm Mexican and I'm 20 years old, actually I want make a good life what programmer. My hobbies listen music, learn languages just now I speak French basic conversational and learn all times new things in the world of technologies Web and Mobiles</p>
+                <p className='p'>I'm Mexican and I'm 20 years old. Nowadays I'm looking for a life on Web Development. My hobbies are listen music and learn languages. At this moment I'm improving my French skills. Also I like to find new things in the world of technologies Web and Mobiles</p>
                 
                 <h2 className='titleSkills'>Skills</h2>
 
