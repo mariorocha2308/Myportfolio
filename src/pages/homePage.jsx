@@ -41,7 +41,7 @@ const HomePage = () => {
                         <a href="https://github.com/mariorocha2308" target="_blank" rel='noreferrer'><FaGithubSquare className='icon'/></a>
                     </div>
 
-                    <a  className='btnHome' href="https://drive.google.com/file/d/1-hyvMQODIaB37OUB9jRf6ew4Yh-lNfLZ/view?usp=sharing" target="_blank" rel='noreferrer'>Download CV</a>
+                    <a  className='btnHome' href="https://drive.google.com/file/d/1bNOOQYUkeaicrUhwHoKYIv729SzMgw8F/view?usp=sharing" target="_blank" rel='noreferrer'>Download CV</a>
                     
                 </motion.div>
                 <div>

@@ -1,6 +1,6 @@
 import './styles/aboutPage.css'
-import image from '../images/B612About.jpeg'
 import { motion } from 'framer-motion'
+import unDraw from '../images/undraw_profile_details.svg'
 
 const AboutPage = () => {
 
@@ -9,8 +9,7 @@ const AboutPage = () => {
 
     return ( 
         <div className='aboutPage'>
-            {/* TODO: CAMBIAR OTRA IMAGEN  */}
-            <img src={image} alt="" className='picAbout'/>
+            <img src={unDraw} alt="" className='picAbout'/>
             <div className='about'>
 
                 <h2 className='titleAbout'>About Me</h2>
