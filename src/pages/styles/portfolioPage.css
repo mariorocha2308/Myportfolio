@@ -1,18 +1,60 @@
 .portfolioPage{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #2f3542;
+    background-color: rgba(255, 255, 255, 0.904);
     height: 100vh;
 }
 
-.imgProx{
+.proyectsList{
+    margin-top: 100px;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infoPortfolio{
+    text-align: start;
     width: 400px;
 }
 
-.h1Prox{
-    color: rgba(244, 165, 96, 0.795);
+.imgPortfolio{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.titlePortfolio{
+    font-family: 'Paytone One';
+    color: #606060f3;
+    margin: 0px;
+}
+
+.descriptionPortfolio{
+    text-align: justify;
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #606060;
+}
+
+.btnPortfolio{
+    padding: 10px;
+    background-color: #ff9e4371;
+    color: rgba(0, 0, 0, 0.493);
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    user-select: none;
+}
+
+.btnPortfolio:hover{
+    background-color: #ff9e43af;
+    cursor: pointer;
 }
 
 @media (max-width: 550px) {

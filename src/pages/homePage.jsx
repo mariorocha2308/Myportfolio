@@ -30,10 +30,6 @@ const HomePage = () => {
     return ( 
         <div className='containPage' id='homePage' ref={ref}>
             <div className='contentInfo'>
-
-                <div className='ellipse'></div>
-                <div className='ellipse2'></div>
-
                 <motion.div className='personalInfo' 
                     animate={animation}
                     >
@@ -43,6 +39,7 @@ const HomePage = () => {
                         <label className='name'>Mario.</label>
                     </div>
                     <label className="professional">Frontend & Backend Dev.</label>
+                    <label className='description'>I like to work in Web Sites and Mobiles Apps</label>
                 </motion.div>
                     
                 <div className='buttons'>

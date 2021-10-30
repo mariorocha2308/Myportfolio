@@ -1,12 +1,24 @@
 import './styles/portfolioPage.css'
-import unDraw from '../images/undraw_Lost.svg'
+import img from '../images/maxresdefault.jpg'
 
 const PortfolioPage = () => {
     return ( 
         <div className='portfolioPage'>
-            <img src={unDraw} alt="proximamente" className='imgProx'/>
-            <h2 className='h1Prox'>Proximamente, puedes revisar mi github por ahora</h2>
-            <a  className='btnHome' href="https://github.com/mariorocha2308" target="_blank" rel='noreferrer'>Github</a>
+            <div className='proyectsList'>
+                <div className='portfolio'>
+                    <div className='infoPortfolio'>
+                        <h2 className='titlePortfolio'>PI-Countries</h2>
+                        <p className='descriptionPortfolio'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <div>
+                            <a  className='btnHome' target="_blank" rel='noreferrer'>Source Code</a>
+                            <a  className='btnPortfolio' target="_blank" rel='noreferrer'>View Page</a>
+                        </div>
+                        
+                    </div>
+                    
+                    <img src={img} alt="maxres" className='imgPortfolio'/>
+                </div>
+            </div>
         </div>
     );
 }
