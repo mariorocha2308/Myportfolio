@@ -29,32 +29,37 @@ const HomePage = () => {
     
     return ( 
         <div className='containPage' id='homePage' ref={ref}>
+            <div className='contentInfo'>
+
+                <div className='ellipse'></div>
+                <div className='ellipse2'></div>
+
                 <motion.div className='personalInfo' 
                     animate={animation}
                     >
-                    <label className='greeting'>WELCOME, I'M</label>
-                    <label className='name'>Mario De Jesus</label>
-                    <label className='name'>Rocha.</label>
-                    <div>
-                        <a href="https://www.linkedin.com/in/mario-de-jesus-rocha" target="_blank" rel='noreferrer'><FaLinkedin className='icon'/></a>
-                        
-                        <a href="https://github.com/mariorocha2308" target="_blank" rel='noreferrer'><FaGithubSquare className='icon'/></a>
+                    <label className='greeting'>Hello!</label>
+                    <div className='presentation'>
+                        <label className='intro'>I'm</label>
+                        <label className='name'>Mario.</label>
                     </div>
-
-                    <a  className='btnHome' href="https://drive.google.com/file/d/1bNOOQYUkeaicrUhwHoKYIv729SzMgw8F/view?usp=sharing" target="_blank" rel='noreferrer'>Download CV</a>
-                    
+                    <label className="professional">Frontend & Backend Dev.</label>
                 </motion.div>
-                <div>
-                    <img src={image} alt="" className='picHome'/>
+                    
+                <div className='buttons'>
+                    <a  className='btnHome' href="https://drive.google.com/file/d/1bNOOQYUkeaicrUhwHoKYIv729SzMgw8F/view?usp=sharing" target="_blank" rel='noreferrer'>Download CV</a>
+
+                    <a href="https://www.linkedin.com/in/mario-de-jesus-rocha" target="_blank" rel='noreferrer'><FaLinkedin className='icon'/></a>
+                        
+                    <a href="https://github.com/mariorocha2308" target="_blank" rel='noreferrer'><FaGithubSquare className='icon'/></a>
                 </div>
-                <motion.div className='personalDescription' 
-                    animate={animation}
-                    >
-                    <label className='title'>I'M</label>
-                    <label className='work'>Full Stack Web Developer Junior</label>
-                    <p className='description'>I like to work in Web Sites and Mobiles Aplications</p>
-                    <p className='stacks'>Frontend, Backend & Data Base</p>
-                </motion.div>         
+                
+            </div>
+                    
+            <div className='img'>
+                <img src={image} alt="" className='picHome'/>
+            </div>
+
+            <div className='circle'></div>
         </div> 
     );
 }

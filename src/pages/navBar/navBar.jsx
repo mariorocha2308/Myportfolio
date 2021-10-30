@@ -4,6 +4,8 @@ import '../styles/navBar.css'
 const NavBar = () => {
     return ( 
         <div className='navBar'>
+            <h2 className='logoNav'>Portfolio</h2>
+            <div className="selectPage">
             <Link
                 activeClass="active"
                 to="homePage"
@@ -25,6 +27,7 @@ const NavBar = () => {
                 smooth={true}
                 duration={500}
             ><span>Portfolio</span></Link>
+            </div>
         </div>
     );
 }

@@ -1,25 +1,41 @@
 .navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
-    top: 20px;
+    top: 15px;
     width: 100%;
-    color: rgba(255, 255, 255, 0.774);
     font-size: 15px;
     font-weight: 500;
+}
+
+.logoNav{
+    color: #606060;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-left: 90px;
+    user-select: none;
 }
 
 span{
     margin: 10px;
     cursor: pointer;
     user-select: none;
+    font-family: 'Poppins';
+    font-weight: bold;
 }
 
+
 .active{
-    color: #f7d794;
-    background-color: rgba(255, 255, 255, 0.055);
+    color: #008d86e1;
+    background-color: #1edbd23d;
     padding: 10px;
     border-radius: 10px;
 }
 
+.selectPage{
+    margin-right: 100px;
+}
 @media (max-width: 550px) {
     .navBar{
         font-size: 18px;

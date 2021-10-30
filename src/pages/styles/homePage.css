@@ -1,82 +1,72 @@
 .containPage{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: #2f3542;
+    background-color: rgba(255, 255, 255, 0.904);
     height: 99.9vh;
     width: 100%;
 }
 
+.contentInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .personalInfo{
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     user-select: none;
 }
 
 .greeting{
-    font-size: 20px;
-    color: rgba(255, 255, 0, 0.74);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    color: #606060;
+    font-family: 'Secular One';
     text-align: end;
 }
+
+.intro{
+    font-size: 50px;
+    font-family: 'Secular One';
+    color: #606060;
+    margin-right: 15px;
+}
+
 .name{
+    font-size: 60px;
+    font-family: 'Paytone One';
+    color: #00827C;
+}
+
+.professional{
     font-size: 40px;
-    font-weight: 700;
-    color: rgba(255, 255, 255, 0.795);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Secular One';
+    color: #606060;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .btnHome{
-    margin-top: 20px;
-    padding: 10px;
-    background-color: transparent;
-    border: 4px solid #e1b12cf6;
-    color: #e1b12cf6;
-    font-size: 15px;
-    font-weight: 800;
+    padding: 15px;
+    background-color: #00b8af1c;
+    color: #00827cda;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
     text-decoration: none;
+    border-radius: 10px;
+    margin-right: 20px;
 }
 
 .btnHome:hover{
-    border: 4px solid yellow;
-    color: yellow;
+    background-color: #0dcac148;
     cursor: pointer;
-}
-
-.personalDescription{
-    display: flex;
-    flex-direction: column;
-    max-width: 250px;
-    flex-wrap: wrap;
-    user-select: none;
-
-}
-
-.title{
-    font-size: 20px;
-    color: rgba(255, 255, 0, 0.74);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: end;
-}
-
-.work{
-    font-size: 30px;
-    font-weight: 700;
-    color: rgba(255, 255, 255, 0.795);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: end;
-}
-
-.description{
-    font-size: 23px;
-    color: rgba(255, 255, 255, 0.795);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.stacks{
-    font-size: 23px;
-    color: #f5cd79;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .picHome{
@@ -88,12 +78,46 @@
 }
 
 .icon{
-    margin-top: 15px;
     margin-right: 15px;
     width: 40px;
     height: 40px;
-    color: rgba(255, 255, 255, 0.212);
+    color: rgba(128, 128, 128, 0.329);
     cursor: pointer;
+}
+
+.circle{
+    position: absolute;
+    background-color: #00b3aa73;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    right: 50px;
+    bottom: 220px;
+}
+
+.ellipse{
+    position: absolute;
+    background-color: transparent;
+    border: 40px solid #00b3aa73;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    left: 300px;
+    top: -230px;
+}
+
+.ellipse2{
+    position: absolute;
+    background-color: transparent;
+    border: 35px solid #00b3aa73;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 400px;
+    bottom: 30px;
 }
 
 @media (max-width: 550px){
