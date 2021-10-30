@@ -1,6 +1,6 @@
 import './styles/aboutPage.css'
 import { motion } from 'framer-motion'
-import unDraw from '../images/undraw_profile_details.svg'
+import unDraw from '../images/undraw_a_moment.svg'
 
 const AboutPage = () => {
 
@@ -9,12 +9,17 @@ const AboutPage = () => {
 
     return ( 
         <div className='aboutPage'>
-            <img src={unDraw} alt="" className='picAbout'/>
+            <div className='figure1'></div>
+            <div className='figure2'></div>
+            <div className='figure3'></div>
+            <div className='figure4'></div>
+            <div className='figure5'></div>
+            <div className='figure6'></div>
+            <img src={unDraw} alt="a moment relax" className='picAbout'/>
             <div className='about'>
-
+                <div className='aboutCircle'></div>
                 <h2 className='titleAbout'>About Me</h2>
-                <hr/>
-                <p className='p'>I'm Mexican and I'm 20 years old. Nowadays I'm looking for a life on Web Development. My hobbies are listen music and learn languages. At this moment I'm improving my French skills. Also I like to find new things in the world of technologies Web and Mobiles</p>
+                <p className='p'>I'm Mexican and I'm 21 years old. Nowadays I'm looking for a life on Web Development. My hobbies are listen music and learn languages. At this moment I'm improving my French skills. Also I like to find new things in the world of technologies Web and Mobiles</p>
                 
                 <h2 className='titleSkills'>Skills</h2>
 
@@ -23,7 +28,8 @@ const AboutPage = () => {
                         technologies.map((technos, idex) => (
                             <motion.label  key={idex} className='technos'   whileHover={{
                                 scale: 1.2,
-                                backgroundColor: '#f5cd79',
+                                backgroundColor: '#008d86e1',
+                                color: 'white',
                                 cursor: 'pointer',
                                 transition: { duration: 1 },
                             }}

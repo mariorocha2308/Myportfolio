@@ -2,11 +2,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2f3542;
+    background-color: rgba(255, 255, 255, 0.904);
     height: 99.9vh;
     flex-direction: row;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.about{
+    width: 550px;
+    user-select: none;
+}
+
+.titleAbout{
+    color: #606060;
+    font-family: 'Paytone One';
+    font-size: 60px;
 }
 
 .picAbout{
@@ -16,34 +27,32 @@
     user-select: none;
 }
 
-.about{
-    width: 550px;
-    user-select: none;
-}
-
-.titleAbout{
-    color: #f5cd79;
-}
-
 .p{
-    color: rgba(255, 255, 255, 0.795);
+    color: #606060;
     text-align: justify;
     font-size: 15px;
     font-weight: 600;
+    font-family: 'Poppins';
+    font-weight: bold;
+
 }
 
 .titleSkills{
-    color: #fa973acc;
+    color: #606060;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .technos{
     margin: 8px;
-    background-color: rgba(255, 255, 255, 0.123);
-    color: white;
+    background-color: rgba(128, 128, 128, 0.062);
+    color: #00827C;
     padding: 8px;
     border-radius: 5px;
     font-weight: 600;
     font-size: 15px;
+    font-family: 'Poppins';
 }
 
 .divTechnos{
@@ -51,6 +60,77 @@
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+}
+
+.aboutCircle{
+    position: absolute;
+    background-color: #01afa694;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    top: 950px;
+    right: 130px;
+}
+
+.figure1{
+    position: absolute;
+    background-color: transparent;
+    border: 10px solid #00b3aa73;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    top: 910px;
+}
+
+.figure2{
+    position: absolute;
+    background-color: transparent;
+    border: 10px solid #5e27cd62;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: 1340px;
+    left: 120px;
+}
+
+.figure3{
+    position: absolute;
+    background-color: transparent;
+    border: 10px solid #ff9e438c;
+    height: 40px;
+    width: 40px;
+    transform: rotate(25deg);
+    top: 880px;
+    left: 160px;
+}
+.figure4{
+    position: absolute;
+    background-color: transparent;
+    border: 10px solid #ff9e438c;
+    height: 35px;
+    width: 35px;
+    top: 1260px;
+    left: 50px;
+}
+.figure5{
+    position: absolute;
+    background-color: transparent;
+    border: 10px solid #5e27cd62;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    top: 920px;
+    left: 320px;
+}
+.figure6{
+    position: absolute;
+    background-color: transparent;
+    border: 10px solid #00b3aa73;
+    height: 55px;
+    width: 55px;
+    transform: rotate(61deg);
+    top: 1260px;
+    left: 320px;
 }
 
 @media (max-width: 550px){
