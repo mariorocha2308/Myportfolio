@@ -2,7 +2,7 @@ import './styles/homePage.css'
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer';
 import {useEffect} from 'react'
-import image from '../images/B612.jpg'
+import image from '../images/Mario.jpg'
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 const HomePage = () => {

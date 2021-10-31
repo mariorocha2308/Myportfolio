@@ -38,6 +38,14 @@ span{
 }
 @media (max-width: 550px) {
     .navBar{
-        font-size: 18px;
+        margin-top: 15px;
+        font-size: 15px;
+        justify-content: center;
+    }
+    .logoNav{
+        display: none;
+    }
+    .selectPage{
+        margin: 0px;
     }
 }

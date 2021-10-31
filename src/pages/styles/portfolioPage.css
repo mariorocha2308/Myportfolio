@@ -18,12 +18,14 @@
 .infoPortfolio{
     text-align: start;
     width: 400px;
+    user-select: none;
 }
 
 .imgPortfolio{
     height: 200px;
     width: 350px;
     border-radius: 10px;
+    user-select: none;
 }
 
 .titlePortfolio{
@@ -61,7 +63,22 @@
     .portfolioPage{
         height: 145vh;
     }
+
+    .portfolio{
+        flex-direction: column;
+    }
+
+    .infoPortfolio{
+        width: 350px;
+    }
     .imgProx{
         width: 290px;
+    }
+
+    .buttonsPortfolio{
+        display: flex;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        justify-content: center;
     }
 }
