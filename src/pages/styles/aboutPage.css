@@ -19,7 +19,7 @@
     font-family: 'Paytone One';
     font-size: 60px;
     text-shadow: 5px 5px #558abbab;
-
+    margin-bottom: 0px;
 }
 
 .picAbout{
@@ -52,16 +52,42 @@
     color: #00827C;
     padding: 8px;
     border-radius: 5px;
+    transform: skew(10deg);
+    width: 100px; 
+    height: 70px;
+    user-select: none;
+}
+
+
+.divTechnos2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: skew(-10deg);
     font-weight: 600;
     font-size: 15px;
     font-family: 'Poppins';
+    text-align: center;
+    user-select: none;
 }
 
+.labelTechnos{
+    cursor: pointer;
+}
 .divTechnos{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     flex-wrap: wrap;
+}
+
+.logoTechnos{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    user-select: none;
 }
 
 .aboutCircle{
@@ -70,7 +96,7 @@
     height: 25px;
     width: 25px;
     border-radius: 50%;
-    top: 826px;
+    top: 828px;
     right: 140px;
 }
 
@@ -133,75 +159,4 @@
     transform: rotate(61deg);
     top: 1160px;
     left: 320px;
-}
-
-@media (max-width: 550px){
-    .aboutPage{
-        justify-content: initial;
-        flex-direction: column;
-        padding-left: 0px;
-        padding-right: 0px;
-        height: 120vh;
-    }
-    .about{
-        width: 330px;
-    }
-
-    .picAbout{
-        margin-top: 80px;
-        width: 290px;
-        height: 300px;
-    }
-    .aboutCircle{
-        height: 25px;
-        width: 25px;
-        top: 1126px;
-        right: 30px;
-    }
-
-    .figure1{
-        height: 25px;
-        width: 25px;
-        display: none;
-        top: 1250px;
-    }
-    
-    .figure2{
-        height: 40px;
-        width: 40px;
-        top: 1540px;
-        display: none;
-        left: 120px;
-    }
-    
-    .figure3{
-        height: 40px;
-        width: 40px;
-        transform: rotate(25deg);
-        top: 1250px;
-        display: none;
-        left: 30px;
-    }
-    .figure4{
-        height: 35px;
-        width: 35px;
-        top: 1510px;
-        display: none;
-        left: 30px;
-    }
-    .figure5{
-        height: 70px;
-        width: 70px;
-        top: 1240px;
-        display: none;
-        left: 300px;
-    }
-    .figure6{
-        height: 55px;
-        width: 55px;
-        transform: rotate(61deg);
-        top: 1530px;
-        left: 320px;
-        display: none;
-    }
 }

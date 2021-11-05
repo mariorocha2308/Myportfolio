@@ -14,34 +14,35 @@ const HomePage = () => {
     useEffect(() => {
         if (inView) {
             animation.start({
-                x: '0px',
+                y: '0px',
                 opacity: 1,
-                transition: { duration: 2 }
+                transition: { duration: 3 }
             })
         }
         if (!inView) {
             animation.start({
-                x: '-200px',
+                y: '-50px',
                 opacity: 0
             })
         }
-    }, [inView])
+    }, [animation, inView])
     
     return ( 
         <div className='containPage' id='homePage' ref={ref}>
-            <div className='contentInfo'>
-                <motion.div className='personalInfo' 
-                    animate={animation}
+                <div className='personalInfo' 
+                    
                     >
                     <label className='greeting'>Hello!</label>
                     <div className='presentation'>
                         <label className='intro'>I'm</label>
                         <label className='name'>Mario.</label>
                     </div>
+                    <motion.div className='contentPic' animate={animation}>
+                        <img src={image} alt="" className='picHome'/>
+                        <div className='circle'></div>
+                    </motion.div>
                     <label className="professional">Frontend & Backend Dev.</label>
                     <label className='description'>I like to work in Web Sites and Mobiles Apps</label>
-                </motion.div>
-                    
                 <div className='buttons'>
                     <a  className='btnHome' href="https://drive.google.com/file/d/1bNOOQYUkeaicrUhwHoKYIv729SzMgw8F/view?usp=sharing" target="_blank" rel='noreferrer'>Download CV</a>
 
@@ -49,14 +50,8 @@ const HomePage = () => {
                         
                     <a href="https://github.com/mariorocha2308" target="_blank" rel='noreferrer'><FaGithubSquare className='icon'/></a>
                 </div>
-                
-            </div>
-                    
-            <div className='img'>
-                <img src={image} alt="" className='picHome'/>
-            </div>
-
-            <div className='circle'></div>
+                </div>
+            
         </div> 
     );
 }

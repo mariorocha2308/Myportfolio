@@ -1,22 +1,19 @@
 .containPage{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: rgba(255, 255, 255, 0.904);
     height: 99.9vh;
     width: 100%;
 }
 
-.contentInfo{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 .personalInfo{
-    margin-left: 70px;
     display: flex;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     user-select: none;
+    width: 900px;
 }
 
 .greeting{
@@ -40,19 +37,39 @@
     color: #00827C;
 }
 
+.contentPic{
+    position: absolute;
+    display: flex;
+    align-self: end;
+}
+
+.picHome{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    user-select: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .professional{
     font-size: 30px;
     font-family: 'Secular One';
     color: #606060;
 }
 
+.description{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 18px;
+    color: #606060;
+}
 .buttons{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     margin-left: 70px;
-
 }
 
 .btnHome{
@@ -73,15 +90,6 @@
     cursor: pointer;
 }
 
-.picHome{
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    user-select: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 50px;
-}
 
 .icon{
     margin-right: 15px;
@@ -92,70 +100,57 @@
 }
 
 .circle{
+    display: flex;
     position: absolute;
     background-color: transparent;
     border: 20px solid #ff9e438c;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
-    right: 50px;
-    bottom: 120px;
+    right: 0px;
+    bottom: 50px;
 }
 
-.description{
-    font-family: 'Poppins';
-    font-weight: lighter;
-    font-size: 18px;
-    color: #606060;
-}
-
-@media (max-width: 550px){
-    .containPage{
-        flex-direction: column;
-        height: 90vh; 
-        /* 145 */
-    }
-
-    .contentInfo{
-        margin-top: 80px;
-    }
-
+@media screen and (min-width: 870px) and (max-width: 950px){
     .personalInfo{
-        text-align: start;
+        max-width: 850px;
         margin-left: 20px;
-        width: 350px;
+        margin-right: 20px;
     }
 
-    .greeting{
-        font-size: 70px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 870px){
+    .personalInfo{
+        max-width: 700px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
-    
-    .name{
-        font-size: 50px;
+
+    .professional{
+        position: absolute;
+        display: flex;
+        align-self: end;
+        bottom: 90px;
     }
-    
+
     .description{
-        font-size: 20px;
-        font-weight: 800;
+        position: absolute;
+        display: flex;
+        align-self: end;
+        bottom: 70px;
+    }
+    
+    .picHome{
+        width: 400px;
+        height: 400px;
+    }
+    .circle{
+        width: 15px;
+        height: 15px;
     }
 
     .buttons{
-        margin: 0px;
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-
-    .picHome{
-        width: 270px;
-        height: 270px;
-        margin: 0px;
-        margin-top: 30px;
-    }
-
-    .circle{
-        width: 20px;
-        height: 20px;
-        right: 40px;
-        bottom: 35px;
+        margin-left: 0px;
     }
 }

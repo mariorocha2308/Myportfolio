@@ -36,16 +36,3 @@ span{
 .selectPage{
     margin-right: 80px;
 }
-@media (max-width: 550px) {
-    .navBar{
-        margin-top: 15px;
-        font-size: 15px;
-        justify-content: center;
-    }
-    .logoNav{
-        display: none;
-    }
-    .selectPage{
-        margin: 0px;
-    }
-}
