@@ -1,156 +1,135 @@
-.containPage{
+.home{
+    display: flex;
+    justify-content: end;
+    background: url('../../images/pawel-czerwinski-fPN1w7bIuNU-unsplash.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.158);
+    background-blend-mode: soft-light;
+    height: 100vh;
+}
+
+.nav{
+    position: absolute;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.904);
-    height: 99.9vh;
-    width: 100%;
+    width: 100vw;
+    height: 60px;
 }
 
-.personalInfo{
+.nav_container{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    user-select: none;
-    width: 900px;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left: 50px;
 }
 
-.greeting{
-    font-size: 80px;
-    color: #606060;
-    font-family: 'Secular One';
-    text-align: end;
-    text-shadow: 5px 5px #558abbab;
-}
-
-.intro{
-    font-size: 40px;
-    font-family: 'Secular One';
-    color: #606060;
-    margin-right: 15px;
-}
-
-.name{
-    font-size: 50px;
-    font-family: 'Paytone One';
-    color: #00827C;
+.nav_container__logo{
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
 
 .contentPic{
-    position: absolute;
     display: flex;
-    align-self: end;
+    align-items: center;
+    margin-right: 30px;
+    
 }
 
 .picHome{
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    user-select: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 350px;
+    height: 350px;
+    background-color: #7B68EE;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
 }
 
-.professional{
-    font-size: 30px;
-    font-family: 'Secular One';
-    color: #606060;
+.btn_social{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
 }
 
-.description{
+.introduction{
+    width: 48vw;
+    height: 60vh;
+    align-self: center;
+    margin-right: 60px;
+}
+
+.name_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+hr{
+    width: 10%;
+    size: 0px;
+    border: 1px solid #7B68EE;
+    margin: 0px;
+    margin-right: 5px;
+}
+
+.name__text{
+    font-family: 'Paytone One';
+    color: #7B68EE;
+    font-size: 18px;
+}
+
+.description_text{
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-weight: bold;
+    text-align: end;
+    margin: 0px;
+    color: white;
+}
+
+.description_typed{
+    display: flex;
+    justify-content: flex-end;
     font-family: 'Poppins';
     font-weight: bold;
-    font-size: 18px;
-    color: #606060;
+    font-size: 40px;
+    margin: 0px;
+    color: #7B68EE;
 }
 .buttons{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     margin-top: 20px;
-    margin-left: 70px;
 }
 
-.btnHome{
-    padding: 10px;
-    background-color: #00b8af1c;
-    color: #00827cda;
-    font-size: 18px;
-    font-family: 'Poppins';
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 10px;
-    margin-right: 20px;
-    user-select: none;
+.btnHome {
+  background-color: #7B68EE;
+  border: 1px solid #7B68EE;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-.btnHome:hover{
-    background-color: #0dcac148;
-    cursor: pointer;
+.btnHome:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
 }
 
-
-.icon{
-    margin-right: 15px;
-    width: 40px;
-    height: 40px;
-    color: rgba(128, 128, 128, 0.329);
-    cursor: pointer;
-}
-
-.circle{
-    display: flex;
-    position: absolute;
-    background-color: transparent;
-    border: 20px solid #ff9e438c;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    right: 0px;
-    bottom: 50px;
-}
-
-@media screen and (min-width: 870px) and (max-width: 950px){
-    .personalInfo{
-        max-width: 850px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-}
-
-@media screen and (min-width: 700px) and (max-width: 870px){
-    .personalInfo{
-        max-width: 700px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .professional{
-        position: absolute;
-        display: flex;
-        align-self: end;
-        bottom: 90px;
-    }
-
-    .description{
-        position: absolute;
-        display: flex;
-        align-self: end;
-        bottom: 70px;
-    }
-    
-    .picHome{
-        width: 400px;
-        height: 400px;
-    }
-    .circle{
-        width: 15px;
-        height: 15px;
-    }
-
-    .buttons{
-        margin-left: 0px;
-    }
-}
