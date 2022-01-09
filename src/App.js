@@ -11,4 +11,5 @@ function App() {
   );
 }
 
+// console.log('home')
 export default App;
