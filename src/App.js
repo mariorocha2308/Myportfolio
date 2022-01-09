@@ -12,4 +12,5 @@ function App() {
 }
 
 // console.log('home')
+// console.log(object)
 export default App;
