@@ -1,13 +1,6 @@
 import './styles/portfolioPage.css'
-import henry from '../images/henry.jpg'
 import img from '../images/maxresdefault.jpg'
 import { FiGithub } from "react-icons/fi";
-import react from '../images/react-2.svg'
-import html from '../images/html-1.svg'
-import css from '../images/css-3.svg'
-import redux from '../images/redux.svg'
-import express from '../images/express-109.svg'
-import postgress from '../images/postgresql.svg'
 
 const PortfolioPage = () => {
     return ( 
@@ -16,7 +9,6 @@ const PortfolioPage = () => {
                 <h2 className='title_courses'>Courses</h2>
                 <div className='course'>
                     <span className='course_title'>Full Stack Web Developer</span>
-                    <img src={henry} alt="henry" className='course_image'/>
                     <span className='course_school'>by Henry Bootcamp</span>
                     <span className='course_date'> 03 Mayo 2021 / 01 Septiembre 2021</span>
                 </div>
