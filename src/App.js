@@ -1,12 +1,11 @@
-import './App.css';
-import Home from '../src/pages/homePage.jsx'
-import Portfolio from '../src/pages/portfolioPage.jsx'
+import Landing from './pages/Landing.jsx'
+import Portfolio from '../src/pages/Portfolio.jsx'
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-      {/* <Portfolio/> */}
+      <Landing/>
+      <Portfolio/>
     </div>
   );
 }
