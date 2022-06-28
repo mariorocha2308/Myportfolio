@@ -9,7 +9,7 @@ const Landing = () => {
         <div className='home'>
             <div className='home--content'>
                 <div className='nav'>
-                    <span className='nav_container__logo'>Portfolio</span>
+                    <span className='nav_container__logo'>Portafolio</span>
                 </div>
                 <div className='profile'>
                     <div className='profile--content'>
