@@ -6,9 +6,9 @@ export const projects = [
     linkToCode: 'https://github.com/mariorocha2308/PI-BootcampCountries'
   },
   {
-    title: 'PG - Museum',
-    resume: 'E-commerce de obras de arte, aplicando métodos de registro, inicio de sesión usando JSON Web Tokens así como un control de Administrador, Agregado a carritos, favoritos, búsqueda y filtrado. Complementando con compra integrada con base a Stripe y pago mediante escaneo de codigo QR.',
+    title: 'Ecommerce - Coupon',
+    resume: 'E-commerce Coupon vende cupones con descuento, para ciertos de eventos sociales. Aplica métodos de registro, inicio de sesión así como un control Administrador, Agregado a carritos, favoritos, búsqueda, filtrado y compra con base a Stripe y pago mediante escaneo de codigo QR.',
     linkToPage: '',
-    linkToCode: 'https://github.com/mariorocha2308/PG-Museum-Frontend'
+    linkToCode: 'https://github.com/mariorocha2308/fullstack-ecommerce-coupon'
   }
 ]
