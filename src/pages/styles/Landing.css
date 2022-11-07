@@ -69,6 +69,8 @@
 }
 
 .introduction--content {
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -105,8 +107,7 @@ hr{
     font-family: 'Poppins';
     font-size: 38px;
     font-weight: bold;
-    text-align: end;
-    margin: 0px;
+    align-self: flex-end;
     color: white;
 }
 

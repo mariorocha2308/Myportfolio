@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'PI - Countries',
     resume: 'Página web relacionada con países, haciendo click puedes encontrar el país con más información complementaria, tanto como crearles sus actividades turísticas a una o varias con la misma actividad, poder filtrar por dicha actividad y ordenar. Toda esta data viene de un backend en ExpressJs y PostgresSql.',
-    linkToPage: '',
+    linkToPage: 'https://pi-countries-one.vercel.app',
     linkToCode: 'https://github.com/mariorocha2308/PI-BootcampCountries'
   },
   {
