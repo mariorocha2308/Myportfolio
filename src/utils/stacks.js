@@ -61,5 +61,11 @@ export const stacks = [
   {
     name: 'Bootstrap',
     url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg'
+  },{
+    name: 'MongoDB',
+    url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
+  },{
+    name: 'Typescript',
+    url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
   }
 ]
