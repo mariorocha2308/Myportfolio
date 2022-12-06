@@ -13,7 +13,7 @@ export const projects = [
   },
   {
     title: 'Senseigram - Frontend',
-    resume: 'Página web sin ningún consumo a un Backend propio, pero si utilizando un consumo básico de Endpoint a JSONplaceholder, la idea de este proyecto es similar, un ejercicio de mensajería similar a Telegram, solo con estados globales dentro de la aplicación.',
+    resume: 'Página web sin ningún consumo a un Backend propio, pero si utilizando un consumo básico de Endpoint a JSONplaceholder, la idea de este proyecto es un ejercicio de mensajería simulando a Telegram, solo con estados globales dentro de la aplicación.',
     linkToPage: 'https://dev-f.vercel.app/',
     linkToCode: 'https://github.com/mariorocha2308/Dev-F'
   },
