@@ -22,5 +22,11 @@ export const projects = [
     resume: 'Página web con estilo básico de un perfil de diferentes usuarios, cuenta con la funcionalidad de cambiar el color de la portada del perfil igual aleatoriamente, así como también cambio de perfil de diferentes usuarios con una función similar a un cierre de sesión.',
     linkToPage: 'https://challenge-drenvio.vercel.app/',
     linkToCode: 'https://github.com/mariorocha2308/challenge-drenvio'
+  },
+  {
+    title: 'Yew Snippets - VSCode',
+    resume: 'Esta extensión intenta cumplir con ayudar a la comunidad del desarrollo web con el Framework "Yew" al momento de escribir funciones extensas en Rust. Se creó basado en la necesidad de ocupar atajos porque no había nada similar en el Marketplace de Visual Studio Code.',
+    linkToPage: 'https://marketplace.visualstudio.com/items?itemName=MarioRocha.yew-framework-snippets',
+    linkToCode: 'https://github.com/mariorocha2308/yew-snippets'
   }
 ]
