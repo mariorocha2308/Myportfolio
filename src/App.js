@@ -1,12 +1,16 @@
-import Landing from './pages/Landing.jsx'
-import Portfolio from '../src/pages/Portfolio.jsx'
+import { Suspense, lazy } from 'react';
+
+const Landing = lazy(() => import('./pages/Landing.jsx'))
+const Portfolio = lazy(() => import('./pages/Portfolio.jsx'))
 
 function App() {
   return (
-    <div className="App">
-      <Landing/>
-      <Portfolio/>
-    </div>
+    <main className="App">
+      <Suspense fallback={<h1>loading..</h1>}>
+        <Landing/>
+        <Portfolio/>
+      </Suspense>
+    </main>
   );
 }
 

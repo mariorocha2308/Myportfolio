@@ -28,5 +28,11 @@ export const projects = [
     resume: 'Esta extensión intenta cumplir con ayudar a la comunidad del desarrollo web con el Framework "Yew" al momento de escribir funciones extensas en Rust. Se creó basado en la necesidad de ocupar atajos porque no había nada similar en el Marketplace de Visual Studio Code.',
     linkToPage: 'https://marketplace.visualstudio.com/items?itemName=MarioRocha.yew-framework-snippets',
     linkToCode: 'https://github.com/mariorocha2308/yew-snippets'
+  },
+  {
+    title: 'CountDown New Year - Frontend',
+    resume: 'Aplicación en React con Web Performance, se basa en un contador de año nuevo con efectos de fuegos artificiales y sonidos ambientales, la característica particular es incluir un evento de pantalla completa para no distraerse con todo el entorno del navegador.',
+    linkToPage: 'https://count-down-new-year.vercel.app/',
+    linkToCode: 'https://github.com/mariorocha2308/countDown-new-year'
   }
 ]

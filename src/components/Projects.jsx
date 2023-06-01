@@ -5,8 +5,8 @@ const Projects = () => {
   
   return (
     <div className='portfolio--grid'>
-      {projects.map(project => (
-          <article className='project'>
+      {projects.map((project, idx) => (
+          <article className='project' key={idx}>
             <section className='project-description'>
               <title className='project--title'>{project.title}</title>
               <p className='project--resume'>{project.resume}</p>
