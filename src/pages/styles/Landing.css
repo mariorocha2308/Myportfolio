@@ -92,7 +92,7 @@
 hr{
     width: 10%;
     size: 0px;
-    border: 1px solid #6a77fcf3;
+    border: 1px solid #4352ff;
     margin: 0px;
     margin-right: 5px;
 }
@@ -118,7 +118,7 @@ hr{
     font-weight: bold;
     font-size: 35px;
     margin: 0px;
-    color: #6a77fcf3;
+    color: #4352ff;
 }
 .buttons{
     display: flex;
@@ -128,7 +128,7 @@ hr{
 }
 
 .btnHome {
-    background-color: #6a77fcf3;
+    background-color: #4352ff;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
     box-sizing: border-box;
