@@ -107,7 +107,7 @@
 
 .course_date{
     font-family: 'Poppins';
-    color: gray;
+    color: white;
     font-size: 15px;
     font-weight: bold;
     padding-bottom: 2rem;
@@ -183,6 +183,7 @@
     color: white;
     text-decoration: none;
     font-family: 'Poppins';
+    font-weight: bold;
     font-size: 14px;
     border-radius: 2px;
     justify-content: center;

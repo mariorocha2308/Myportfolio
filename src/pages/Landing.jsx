@@ -1,9 +1,10 @@
-// import Typed from 'react-typed';
 import { FiLinkedin, FiGithub } from "react-icons/fi";
 import image from '../images/Marioremoved.png'
 import './styles/Landing.css'
 
 const Landing = () => {
+
+  const handleNavigation = (url) => window.open(url)
 
   return (
     <section className='home'>
@@ -25,17 +26,15 @@ const Landing = () => {
                 <label className='description_text'>Hola, Soy Programador</label>
                 <label className='description_text'>Frontend & Backend</label>
 
-                {/* <Typed strings={['Frontend', 'Backend', 'Database']} loop typeSpeed={200} backSpeed={50} className='description_typed'></Typed> */}
                 <div className='buttons'>
-                  <a className='btn_social' target="_blank" rel='noreferrer'
-                    href="https://www.linkedin.com/in/mario-de-jesus-rocha">
-                      <FiLinkedin className='icon' />
-                  </a>
 
-                  <a className='btn_social' target="_blank" rel='noreferrer'
-                    href="https://github.com/mariorocha2308" >
-                      <FiGithub className='icon'/>
-                  </a>
+                  <FiLinkedin className='btn_social' 
+                    onClick={() => handleNavigation("https://www.linkedin.com/in/mario-de-jesus-rocha")}
+                  />
+
+                  <FiGithub className='btn_social'
+                    onClick={() => handleNavigation("https://github.com/mariorocha2308")}
+                  />
 
                   <a className='btnHome' target="_blank" rel='noreferrer'
                     href="https://drive.google.com/file/d/1pIpzoatDmtblWadCPTWRf9EFSltVyf6t/view?usp=sharing">
