@@ -1,5 +1,5 @@
 import { FiLinkedin, FiGithub } from "react-icons/fi";
-import image from '../images/Marioremoved.png'
+import image from '../images/marioremoved.webp'
 import './styles/Landing.css'
 
 const Landing = () => {
