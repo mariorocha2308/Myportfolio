@@ -8,12 +8,12 @@ const Landing = () => {
 
   return (
     <section className='home'>
+      <div className='profile--content'>
       <div className='home--content'>
         <nav className='nav'>
-          <label className='nav_container__logo'>Portafolio</label>
+          <label className='nav_container__logo'>Portafolio MRDev</label>
         </nav>
         <section className='profile'>
-          <div className='profile--content'>
             <figure className='contentPic'>
               <img src={image} alt="" className='picHome' />
             </figure>
@@ -43,8 +43,8 @@ const Landing = () => {
                 </div>
               </div>
             </section>
-          </div>
         </section>
+      </div>
       </div>
     </section>
   );
