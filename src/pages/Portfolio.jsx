@@ -9,7 +9,10 @@ const Portfolio = () => {
       <div className='portfolio--content'>
         <section className='about'>
           <label className='about--title'>Sobre mi</label>
-          <p className='about--description'>Soy Mexicano, tengo 21 años. Sin embargo, estoy buscando una vida como desarrollador web. Mis hobbies son escuchar música y aprender idiomas. Busco mejorar en mi carrera profesional y personal en los desarrollos móviles y web.</p>
+          <p className='about--description'>Desarrollador Mexicano con más de 2 años de experiencia enfocado en mejorar mi perfil profesional en la industria
+            IT, basado en desarrollos con excelente nivel en rendimiento de aplicaciones, código limpio con ReactJs y
+            acentuando mi pasión por mejores interfaces gráficas y experiencias de usuario. Interesado en compartir el choque
+            cultural entre los diferentes ambientes de trabajo de las empresas.</p>
         </section>
         <section className='technologies'>
           <label className='techs--title'>Tecnologías</label>

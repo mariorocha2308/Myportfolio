@@ -14,8 +14,9 @@
 }
 
 .about {
-    width: 50%;
+    width: 70%;
     color: white;
+    flex-wrap: wrap;
     text-align: center;
     align-self: center;
     margin-top: 5rem;
@@ -29,6 +30,10 @@
     font-size: 28px;
     color: white;
     font-weight: bold;
+}
+
+.about--description {
+    text-align: start;
 }
 
 .technologies {
