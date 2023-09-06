@@ -9,6 +9,11 @@ const Projects = () => {
           <article className='project' key={idx}>
             <section className='project-description'>
               <title className='project--title'>{project.title}</title>
+              <section style={{display: 'flex', paddingTop: '0.5rem', gap: '0.5rem'}}>
+                {project?.tech?.map(tech => (
+                  <img loading='lazy' src={tech} alt='tools in project' />
+                ))}
+              </section>
               <p className='project--resume'>{project.resume}</p>
             </section>
             {project.linkToPage === '' ? <label className='button--portfolio'>En Desarrollo</label> 

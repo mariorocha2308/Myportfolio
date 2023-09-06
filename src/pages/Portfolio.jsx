@@ -1,5 +1,5 @@
 import Projects from '../components/Projects';
-import Stacks from '../components/Stacks';
+// import Stacks from '../components/Stacks';
 import './styles/Portfolio.css'
 
 const Portfolio = () => {
@@ -9,15 +9,14 @@ const Portfolio = () => {
       <div className='portfolio--content'>
         <section className='about'>
           <label className='about--title'>Sobre mi</label>
-          <p className='about--description'>Desarrollador Mexicano con más de 2 años de experiencia enfocado en mejorar mi perfil profesional en la industria
-            IT, basado en desarrollos con excelente nivel en rendimiento de aplicaciones, código limpio con ReactJs y
-            acentuando mi pasión por mejores interfaces gráficas y experiencias de usuario. Interesado en compartir el choque
-            cultural entre los diferentes ambientes de trabajo de las empresas.</p>
+          <p className='about--description'>Desarrollador Mexicano con más de 2 años de experiencia profesional en la industria
+            IT, desarrollos con rendimiento de aplicaciones, código limpio con ReactJs y pasión por mejores interfaces gráficas 
+            y experiencias de usuario. Interesado en los diferentes ambientes de trabajo de las empresas.</p>
         </section>
-        <section className='technologies'>
+        {/* <section className='technologies'>
           <label className='techs--title'>Tecnologías</label>
           <Stacks />
-        </section>
+        </section> */}
         <section className='coursesList'>
           <h1 className='title_courses'>Cursos</h1>
           <div className='course--grid'>

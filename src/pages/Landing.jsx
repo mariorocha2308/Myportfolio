@@ -11,7 +11,7 @@ const Landing = () => {
       <div className='profile--content'>
       <div className='home--content'>
         <nav className='nav'>
-          <label className='nav_container__logo'>Portafolio MRDev</label>
+          <label className='nav_container__logo'>Portafolio</label>
         </nav>
         <section className='profile'>
             <figure className='contentPic'>
