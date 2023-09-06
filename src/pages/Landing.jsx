@@ -37,7 +37,7 @@ const Landing = () => {
                   />
 
                   <a className='btnHome' target="_blank" rel='noreferrer'
-                    href="https://drive.google.com/file/d/1w5Gw227FrVnjnHYxooFgfu0-I9YlxXUA/view?usp=drive_link">
+                    href="https://drive.google.com/file/d/1ffOIsSQnaWIW46CBxP_cF2a9SqNql-bO/view?usp=sharing">
                       Descargar CV
                   </a>
                 </div>
