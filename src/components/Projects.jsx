@@ -10,8 +10,8 @@ const Projects = () => {
             <section className='project-description'>
               <title className='project--title'>{project.title}</title>
               <section style={{display: 'flex', paddingTop: '0.5rem', gap: '0.5rem'}}>
-                {project?.tech?.map(tech => (
-                  <img loading='lazy' src={tech} alt='tools in project' />
+                {project?.tech?.map((tech, idx )=> (
+                  <img loading='lazy' src={tech} alt='tools in project' key={idx}/>
                 ))}
               </section>
               <p className='project--resume'>{project.resume}</p>
